@@ -1,0 +1,15 @@
+Inflections for Go
+------------------
+
+Inflections for Go is a library for the Go language
+that is similar in functionality to the Inflections
+part of ActiveSupport that comes with the Rails 
+project for the Ruby language. I was implementing a
+Go interface for a database that is/was/will continue
+to be managed by a Rails codebase. In order to do that
+I had to make Go code thing like a Rails codebase.
+
+Long term I want to fill out this library and have
+close parity with the Rails code so that other 
+programmers who also need this functionality will 
+be able to use this library to serve a similar need.
