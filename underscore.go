@@ -9,7 +9,7 @@ var (
 	doubleColon       = regexp.MustCompile("::")
 	dash              = regexp.MustCompile("-")
 	uppersOrNumsLower = regexp.MustCompile("([A-Z0-9]+)([A-Z][a-z])")
-	lowerUpper        = regexp.MustCompile("([a-z0-9])([A-Z])")
+	lowerUpper        = regexp.MustCompile("([a-z])([A-Z0-9])")
 )
 
 // This function will change a string from a camelcased

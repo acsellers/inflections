@@ -14,4 +14,8 @@ func TestUnderscore(t *testing.T) {
 		t.Error("Could not process 'SSLError', found",
 			Underscore("SSLError"))
 	}
+	if Underscore("Address1") != "address_1" {
+		t.Error("Could not process 'Address1', found",
+			Underscore("Address1"))
+	}
 }
